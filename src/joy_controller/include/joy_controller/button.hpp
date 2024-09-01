@@ -1,0 +1,33 @@
+#ifndef BUTTON_HPP
+#define BUTTON_HPP
+
+enum Button_enum
+{
+    BUTTON_X,
+    BUTTON_O,
+    BUTTON_TRIANGLE,
+    BUTTON_SQUARE,
+    BUTTON_L1,
+    BUTTON_R1,
+    BUTTON_L2,
+    BUTTON_R2,
+    BUTTON_SHARE,
+    BUTTON_OPTIONS,
+    BUTTON_UNKNOWN,
+    BUTTON_L3,
+    BUTTON_R3
+};
+
+enum Axis_enum
+{
+    AXIS_L_HORIZONTAL,
+    AXIS_L_VERTICAL,
+    AXIS_L_TRIGGER,
+    AXIS_R_HORIZONTAL,
+    AXIS_R_VERTICAL,
+    AXIS_R_TRIGGER,
+    AXIS_DPAD_HORIZONTAL,
+    AXIS_DPAD_VERTICAL
+};
+
+#endif
